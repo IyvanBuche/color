@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html, .body-container{
+    height: 100%;
+    width: 100%;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255, 0.5);
+}
+
+.btn{
+    width: 80px;
+    height: 50px;
+    background: #564bb4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s all ease;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btn:hover{
+    background: #512ea9;
+}
+.btn:active{
+    opacity: 0.8;
+}
+.btn:focus{
+    box-shadow: 0 0 0 5px rgb(86, 75, 180, 0.3);
+}
